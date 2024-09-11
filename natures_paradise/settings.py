@@ -29,6 +29,7 @@ SECRET_KEY = 'django-insecure-jmprhava@**r54mvm@v6)o2$gd%08p2pd!*4jkpl)pyt_p*&b2
 DEBUG = True
 
 ALLOWED_HOSTS = ["*"]
+CSRF_TRUSTED_ORIGINS = ['https://natures-paradise.onrender.com/','https://*.127.0.0.1']
 
 
 # Application definition
