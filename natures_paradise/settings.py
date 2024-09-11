@@ -29,7 +29,7 @@ SECRET_KEY = 'django-insecure-jmprhava@**r54mvm@v6)o2$gd%08p2pd!*4jkpl)pyt_p*&b2
 DEBUG = True
 
 ALLOWED_HOSTS = ["*"]
-CSRF_TRUSTED_ORIGINS = ['https://natures-paradise.onrender.com/','https://*.127.0.0.1']
+CSRF_TRUSTED_ORIGINS = ['https://natures-paradise.onrender.com','https://*.127.0.0.1']
 
 
 # Application definition
@@ -68,6 +68,7 @@ CORS_ALLOWED_ORIGINS = [
     "http://127.0.0.1:5500",  # my frontend's origin
     "http://127.0.0.1:8000",
     "http://localhost:3000",  # Or wherever your frontend is hosted  
+    "https://natures-paradise.onrender.com",
 ]
 
 
